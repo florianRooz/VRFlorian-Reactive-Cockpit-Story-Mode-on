@@ -1,0 +1,35 @@
+VRFLORIAN REACTIVE COCKPIT — CHANGELOG
+=======================================
+
+VERSION 2.2.1 — OPEN TEST
+-------------------------
+
+- Fixes altitude-limited planetary atmosphere music remaining active after
+  Elite stops publishing surface coordinates above the authored limit.
+- Installs Florian's final Mission 2 objective wording and audio-level polish,
+  including consistent naming of Muni in the post-survey clue.
+- Removes the obsolete Mission 2 completion-triumph playback.
+- Repairs the PowerShell updater's process check so later releases can install
+  automatically without a manual bootstrap.
+- Preserves V2.2.0 mission progress, cockpit assignments and configuration.
+
+VERSION 2.2.0 — OPEN TEST
+-------------------------
+
+- Ships as a clean first-time-player build with no Commander identity,
+  cockpit assignments, machine paths, mission progress or gameplay logs.
+- Includes Reactive Cockpit 1.10.0-DISCO-TEST and launcher 0.7-OPEN-TEST.
+- Adds Story Mode ON with Living World, Mission 1 and Mission 2 selection.
+- Adds the player-facing Story Reader with one current clue, scanner status,
+  operational windows and scan progress where relevant.
+- Adds the Story Platform 0.12.2 live-location gate. Cached or menu-time
+  location data cannot start story audio; a fresh in-game Location, FSDJump or
+  CarrierJump event with a real StarSystem opens the gate.
+- Includes Florian's final Mission 1 and Mission 2 graphs for this release.
+- Forces player builds to use their own local Story Platform\story_assets map,
+  never an authoring-machine or old Story Director 4.0 path.
+- Adds launcher update checks and SHA-256-verified in-place installation while
+  preserving cockpit assignments, configuration, mission progress and logs.
+- Adds CTRL+SHIFT+D Disco Mode with two-second lighting palette changes and
+  correct restoration of the current cockpit/story state when switched off.
+- Preserves the complete Classic Elite cockpit and all bundled cockpit themes.

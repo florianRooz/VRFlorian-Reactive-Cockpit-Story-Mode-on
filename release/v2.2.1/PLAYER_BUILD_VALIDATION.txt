@@ -1,0 +1,51 @@
+VRFLORIAN REACTIVE COCKPIT V2.2.1 — RELEASE AUDIT
+==================================================
+
+Audited baseline
+----------------
+- Reactive Cockpit core: 1.10.0-DISCO-TEST.
+- Launcher/backend: 0.7-OPEN-TEST.
+- Story Platform: 0.12.3-ALTITUDE-EXIT-HARDENING.
+- Living World: Yggdrasil 1.0.0.
+- Mission 1: Guardian Signal 1.1.2.
+- Mission 2: The Secrets of Aiabiko 1.1.0.
+- Legacy Reactive Cockpit / Story Director 4.0: excluded.
+
+Verified in the release workspace
+---------------------------------
+- Story Platform regression suite: PASS — 19 tests.
+- Live-location and altitude-exit handling: PASS — 6 regression tests.
+- Disco/story visual isolation: PASS — 2 regression tests.
+- Player Reader and final Mission 2 clue/profile contract: PASS — 11 tests.
+- Mission 1 graph: VALID — 97 nodes / 99 edges.
+- Mission 2 graph: VALID — 59 nodes / 69 edges.
+- Mission 1 final graph SHA-256:
+  58e5b0373a0557525a5ec8fa867580bb9f1c67557b3ed574aa4c92edd11de92f
+- Mission 2 final graph SHA-256:
+  2a4dca26b3cf9c33124e7c553acae70160d97aa4475022d6fcd660da6d1a53a3
+- Mission 1 media check: PASS — all 45 referenced assets present.
+- Mission 2 media check: PASS — all 54 referenced assets present.
+- Clean-player validator: PASS — no personal assignments, identity, machine
+  paths, mission state or gameplay logs; 59 required themes bundled/cached.
+- Python compilation: PASS.
+- JSON parsing: PASS.
+- Launcher XAML XML parsing: PASS.
+- Story Mode defaults OFF; Living World is the default selection.
+- Player story media root is forced to local Story Platform\story_assets.
+- Launcher update version: 2.2.1.
+- Launcher update manifest:
+  https://raw.githubusercontent.com/florianRooz/VRFlorian-Reactive-Cockpit-Story-Mode-on/main/updates/manifest.json
+- Updater protects cockpit assignments, machine configuration, player state,
+  story progress, runtime data and logs.
+- Updater process check uses a non-reserved ProcessId parameter; the V2.2.0
+  PowerShell PID collision is removed.
+- Updater rejects older release versions and verifies both final byte size and
+  SHA-256 before applying a package.
+
+Required final assembly checks
+------------------------------
+- Create VRFlorian_Reactive_Cockpit_V2.2.1.zip from the audited outer folder.
+- Record the final ZIP byte size and SHA-256 with the GitHub release.
+- Upload that exact ZIP to the GitHub release tagged v2.2.1.
+- On a clean Windows folder, test launcher start, one cockpit installation and
+  Story Mode start before opening the public download.
