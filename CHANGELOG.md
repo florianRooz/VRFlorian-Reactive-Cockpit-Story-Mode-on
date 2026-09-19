@@ -1,22 +1,18 @@
 # Changelog
 
-This is the first changelog entry included in this repository. It records the documented contents of **Version 2.2.0**; earlier version history has not yet been added.
+## 2.2.0 — Open test
 
-## 2.2.0
-
-### Release contents
-
-- Reactive Cockpit installation flow for selected ships.
-- Python and EDHM installation guidance in the launcher.
-- **Story Mode ON** single-player campaign mode.
-- **Living World** as the default Story Mode state when no mission is active.
-- Mission selection through **Set Active**.
-- Story start flow triggered by entering the **Sol** system after activating a mission.
-- Story progress saved to the last checkpoint for later continuation.
-- **Story Reader** with next-step clues, scanner status, and location-specific information where applicable.
-- **Disco Mode** toggle using **Ctrl + Shift + D**.
-- Support and troubleshooting links to the VRFlorian website and Discord.
-
-### Notes
-
-Disco Mode can create substantial GPU load because it forces real dynamic cockpit-light changes. It is not recommended for continuous long-term use.
+- Clean first-time-player package with no Commander identity, cockpit
+  assignments, machine paths, mission progress or gameplay logs.
+- Reactive Cockpit 1.10.0-DISCO-TEST and launcher 0.7-OPEN-TEST.
+- Story Mode ON with Living World, Mission 1 and Mission 2 selection.
+- Player-facing Story Reader with one current clue, scanner state, operational
+  windows and scan progress where relevant.
+- Story Platform 0.12.2 live-location gate, preventing cached or menu-time
+  location data from starting story audio.
+- Florian's final Mission 1 and Mission 2 graphs for this release.
+- Player-local story-assets map; old authoring and Story Director 4.0 paths are
+  never used by the clean player.
+- Launcher update checking and SHA-256-verified in-place installation.
+- Ctrl+Shift+D Disco Mode with correct cockpit/story-state restoration.
+- Complete Classic Elite cockpit and bundled cockpit-theme library.

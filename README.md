@@ -1,45 +1,54 @@
-# VRFlorian Reactive Cockpit + Story Mode ON
+# VRFlorian Reactive Cockpit
 
-**Version 2.2.0**
+Current open-test release: **Version 2.2.0**
 
-Thank you for trying **VRFlorian's Reactive Cockpit + Story Mode ON**.
+VRFlorian Reactive Cockpit adds responsive cockpit themes and optional
+single-player Story Mode content to Elite Dangerous. Story Mode ON includes a
+Living World layer plus Mission 1 and Mission 2, a player-facing Story Reader,
+location-aware sound and visual effects, and saved checkpoint progress.
 
-Reactive Cockpit adds reactive cockpit behavior to Elite Dangerous, while **Story Mode ON** adds a single-player, fully scripted adventure designed to take you across the galaxy and guide you toward some of the deeper layers and unique locations in the game.
+## Download
 
-## Installation
+[Download VRFlorian Reactive Cockpit V2.2.0](https://github.com/florianRooz/VRFlorian-Reactive-Cockpit-Story-Mode-on/releases/download/v2.2.0/VRFlorian_Reactive_Cockpit_V2.2.0.zip)
 
-1. Start **VRFlorian Reactive Cockpit**.
-2. Install **Python** and **EDHM** as instructed, if they are not already installed.
-3. Select the cockpit you want and select the ship you wish to install it on.
-4. Repeat the process for each ship you want to give a Reactive Cockpit to.
-5. Click **Activate**. The launcher will close and Reactive Cockpit will activate.
+This is an open-test build. Please report problems through the support Discord.
+
+## First installation
+
+1. Download and extract the complete ZIP. Do not run the launcher from inside
+   the ZIP.
+2. Double-click `START VRFLORIAN REACTIVE COCKPIT.bat`.
+3. Follow the launcher instructions for Python and EDHM if either is missing.
+4. Install a cockpit on at least one ship, keep EDHM UI closed, and click
+   **ACTIVATE**.
 
 ## Story Mode ON
 
-**Story Mode ON** is the single-player story campaign of Reactive Cockpit: a fun, non-lore, fully scripted adventure that will take you across the galaxy and guide you into experiencing some of the deeper layers and unique locations in the game.
+Switch Story Mode ON with the large red launcher button. **Living World** is
+the default state when no campaign mission is active. Open **STORY MODE
+OPTIONS** and choose **SET ACTIVE** beside Mission 1 or Mission 2 to start or
+resume a campaign.
 
-1. After installing at least one Reactive Cockpit, set **Story Mode** to **ON** using the large red button in the launcher.
-2. **Story Mode Options** will appear in the upper-right corner when Story Mode is ON.
-3. By default, Story Mode is set to **Living World**. This means that no mission is active, but certain places in the galaxy have added sound and visual effects — and there could be... mysteries to explore.
-4. To activate a mission, click **Set Active** next to that mission.
-5. Once a mission is active, travel in-game and jump into the **Sol** system. As soon as you do, your ship will receive a call and the story will start.
-6. You can pause a story at any time. Your progress up to the last checkpoint will be saved, so you can continue from there later.
-7. The **Story Reader** gives you a single clue or hint about what you need to do next. It also shows whether your story scanner is ON or OFF. In some locations, it can provide extra information such as day/night-cycle timing or how many scan areas are still left to find.
+The Story Reader provides one current clue, scanner state and, where relevant,
+location windows and remaining scan areas. Turning Story Mode OFF pauses the
+story without deleting progress. RESET creates a dated save backup first.
 
 ## Disco Mode
 
-Press **Ctrl + Shift + D** to activate **Disco Mode**.
+Press **Ctrl+Shift+D** while Reactive Cockpit is running. Disco Mode can create
+a substantial GPU-load spike and is intended for short bursts.
 
-I do not recommend leaving Disco Mode on long-term. It forces real dynamic light changes in your cockpit and can strongly increase GPU load.
+## Updates
 
-## Support and troubleshooting
+Use **CHECK FOR UPDATES** in the launcher. Update packages are verified by file
+size and SHA-256 before installation, while player configuration, cockpit
+assignments, mission progress and logs are preserved.
 
-For more information, troubleshooting, and support:
+## Support
 
 - Website: https://www.florianrooz.nl
 - Discord: https://discord.gg/526vrQEHX
+- YouTube: https://www.youtube.com/@VRFlorian
 
-## Project links
-
-- GitHub: https://github.com/florianRooz/VRFlorian-Reactive-Cockpit-Story-Mode-on
-- Website: https://www.florianrooz.nl
+Elite Dangerous is a trademark of Frontier Developments. This is an
+independent fan project.

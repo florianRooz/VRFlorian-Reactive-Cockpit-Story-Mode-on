@@ -1,0 +1,10 @@
+{
+  "schema": "reactive-cockpit.update-manifest.v1",
+  "product": "VRFlorian Reactive Cockpit",
+  "channel": "open-test",
+  "version": "2.2.0",
+  "notes": "VRFlorian Reactive Cockpit V2.2.0 open-test release.",
+  "package_url": "https://github.com/florianRooz/VRFlorian-Reactive-Cockpit-Story-Mode-on/releases/download/v2.2.0/VRFlorian_Reactive_Cockpit_V2.2.0.zip",
+  "sha256": "4473E1FC355D564942A0F70AB67C530ED957F570CA31CB09AA978544F996DBE9",
+  "size_bytes": 774290145
+}
