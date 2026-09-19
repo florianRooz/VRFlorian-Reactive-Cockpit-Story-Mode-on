@@ -2,9 +2,9 @@
   "schema": "reactive-cockpit.update-manifest.v1",
   "product": "VRFlorian Reactive Cockpit",
   "channel": "open-test",
-  "version": "2.2.0",
-  "notes": "VRFlorian Reactive Cockpit V2.2.0 open-test release.",
-  "package_url": "https://github.com/florianRooz/VRFlorian-Reactive-Cockpit-Story-Mode-on/releases/download/v2.2.0/VRFlorian_Reactive_Cockpit_V2.2.0.zip",
-  "sha256": "4473E1FC355D564942A0F70AB67C530ED957F570CA31CB09AA978544F996DBE9",
-  "size_bytes": 774290145
+  "version": "2.2.1",
+  "notes": "Small open-test update: fixes Aiabiko altitude-limited atmosphere music and installs the final Mission 2 objective/audio polish. Mission progress, story media, cockpit assignments and configuration are preserved.",
+  "package_url": "https://raw.githubusercontent.com/florianRooz/VRFlorian-Reactive-Cockpit-Story-Mode-on/main/updates/VRFlorian_Reactive_Cockpit_V2.2.1_UPDATE.zip",
+  "sha256": "F4334AB6FC3AF0E6A6AF5CDB12DCFEAB57A2A1A07035FCB7010463AC8FA5CAF1",
+  "size_bytes": 39585
 }
