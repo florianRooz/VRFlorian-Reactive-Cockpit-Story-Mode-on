@@ -1,5 +1,24 @@
 # Changelog
 
+## 2.2.2 — Live telemetry gate recovery
+
+- Story Mode can recover after Reactive Cockpit is restarted during an active
+  Elite Dangerous session.
+- Fresh gameplay Journal events and meaningful post-baseline Status changes can
+  release the startup gate.
+- Gate-opening telemetry is delivered after runtime startup so its story
+  trigger is not lost.
+- Cached/menu telemetry remains blocked.
+- Mission progress, graphs, story media, cockpit assignments, configuration,
+  logs, and user data are preserved.
+
+## 2.2.1 — Open-test polish and updater repair
+
+- Corrected Aiabiko altitude-limited atmosphere music exit behaviour.
+- Installed the final Mission 2 objective and audio polish.
+- Repaired the PowerShell updater process check for future updates.
+- Published a repaired clean installer for new players.
+
 ## 2.2.0 — Open test
 
 - Clean first-time-player package with no Commander identity, cockpit

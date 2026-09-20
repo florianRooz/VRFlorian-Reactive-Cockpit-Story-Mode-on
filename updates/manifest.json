@@ -2,9 +2,9 @@
   "schema": "reactive-cockpit.update-manifest.v1",
   "product": "VRFlorian Reactive Cockpit",
   "channel": "open-test",
-  "version": "2.2.1",
-  "notes": "Small open-test update: fixes Aiabiko altitude-limited atmosphere music, installs the final Mission 2 objective/audio polish, and repairs the updater for future versions. Mission progress, story media, cockpit assignments and configuration are preserved.",
-  "package_url": "https://raw.githubusercontent.com/florianRooz/VRFlorian-Reactive-Cockpit-Story-Mode-on/main/updates/VRFlorian_Reactive_Cockpit_V2.2.1_UPDATE_R2.zip",
-  "sha256": "10040BBEFB0681B4CA89FE8C9354447D2448BADC2119012A572B7C762057AB2C",
-  "size_bytes": 42077
+  "version": "2.2.2",
+  "notes": "Reliability update: Story Mode now recovers after restarting Reactive Cockpit during a live Elite session. Fresh gameplay Journal events or meaningful Status changes release the startup gate without losing the triggering event. Cached/menu telemetry remains blocked; mission progress, graphs, media, cockpit assignments and configuration are preserved.",
+  "package_url": "https://raw.githubusercontent.com/florianRooz/VRFlorian-Reactive-Cockpit-Story-Mode-on/main/updates/VRFlorian_Reactive_Cockpit_V2.2.2_UPDATE.zip",
+  "sha256": "65C632812B4317845E0ECA09F8C50CB1A7F94BC83DEC3774AC5C19F577EF9DD2",
+  "size_bytes": 17959
 }
