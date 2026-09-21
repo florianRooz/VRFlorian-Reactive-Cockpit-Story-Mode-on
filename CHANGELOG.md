@@ -1,5 +1,18 @@
 # Changelog
 
+## 2.2.3 — Launcher feedback and Mission II clarity
+
+- Added a full-window launcher working indicator, progress bar and wait cursor
+  for slower operations.
+- The launcher now appears before its initial Python, EDHM and Shipyard scan.
+- Repeat clicks are blocked while work is in progress, with guaranteed cleanup
+  after success or failure.
+- Reduced unnecessary system rescans when the launcher regains focus.
+- Added Florian's latest Bardin's Vice and Dewan spycraft objective guidance,
+  matching Story Reader clues, Muni naming corrections and audio polish.
+- Mission progress, media, cockpit assignments, configuration, logs and user
+  data remain preserved.
+
 ## 2.2.2 — Live telemetry gate recovery
 
 - Story Mode can recover after Reactive Cockpit is restarted during an active

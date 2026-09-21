@@ -2,9 +2,9 @@
   "schema": "reactive-cockpit.update-manifest.v1",
   "product": "VRFlorian Reactive Cockpit",
   "channel": "open-test",
-  "version": "2.2.2",
-  "notes": "Reliability update: Story Mode now recovers after restarting Reactive Cockpit during a live Elite session. Fresh gameplay Journal events or meaningful Status changes release the startup gate without losing the triggering event. Cached/menu telemetry remains blocked; mission progress, graphs, media, cockpit assignments and configuration are preserved.",
-  "package_url": "https://raw.githubusercontent.com/florianRooz/VRFlorian-Reactive-Cockpit-Story-Mode-on/main/updates/VRFlorian_Reactive_Cockpit_V2.2.2_UPDATE.zip",
-  "sha256": "65C632812B4317845E0ECA09F8C50CB1A7F94BC83DEC3774AC5C19F577EF9DD2",
-  "size_bytes": 17959
+  "version": "2.2.3",
+  "notes": "Launcher and Mission II clarity update: slower launcher actions now show a full-window WORKING indicator, progress bar and wait cursor while repeat clicks are blocked. Mission II includes clearer Bardin's Vice and Dewan spycraft objectives, matching Story Reader clues, Muni naming corrections and final audio polish. Mission progress, media, cockpit assignments, configuration and user data are preserved.",
+  "package_url": "https://raw.githubusercontent.com/florianRooz/VRFlorian-Reactive-Cockpit-Story-Mode-on/main/updates/VRFlorian_Reactive_Cockpit_V2.2.3_UPDATE.zip",
+  "sha256": "713E7BBC2C885683D61D07ABFB03808DB6AFEE28CC91BCBB7C4A4B51025D282A",
+  "size_bytes": 42092
 }

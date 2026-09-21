@@ -1,7 +1,7 @@
 # VRFlorian Reactive Cockpit
 
 Current clean installer: **Version 2.2.1**  
-Latest launcher update: **Version 2.2.2**
+Latest launcher update: **Version 2.2.3**
 
 VRFlorian Reactive Cockpit adds responsive cockpit themes and optional
 single-player Story Mode content to Elite Dangerous. Story Mode ON includes a
