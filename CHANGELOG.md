@@ -1,5 +1,19 @@
 # Changelog
 
+## 2.2.4 — Living World and dialogue playback
+
+- Added Living World environments for Mount Hagrass, the Hagrass stela and
+  Mount Darwin.
+- Reused the existing Story Assets media; no additional audio download is
+  required.
+- Moved Mission II spoken cues onto the shared dialogue layer so advancing
+  quickly replaces the previous line instead of producing overlapping speech.
+- Made the update package cumulative, including the V2.2.2 live-telemetry gate
+  and V2.2.3 launcher/mission refinements for players updating directly from
+  an older clean installer.
+- Mission progress, Living World state, media, cockpit assignments,
+  configuration, logs and user data remain preserved.
+
 ## 2.2.3 — Launcher feedback and Mission II clarity
 
 - Added a full-window launcher working indicator, progress bar and wait cursor
