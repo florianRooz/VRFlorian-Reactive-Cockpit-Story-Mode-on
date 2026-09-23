@@ -6,12 +6,23 @@ This policy applies to every VRFlorian Reactive Cockpit launcher update.
 
 - The newest update package must be cumulative from the current public clean
   installer, not merely incremental from the immediately preceding update.
-- It must contain the latest version of every file changed by any update since
-  that clean-installer baseline.
+- It must contain the latest version of every required product file changed by
+  any update since that clean-installer baseline. Superseded version-specific
+  notes do not need to be carried forward.
 - Any supported older installation must be able to install the newest package
   directly. Players must never need to install intermediate updates.
 - When the public clean installer is refreshed, that release becomes the new
   baseline for subsequent cumulative packages.
+
+## Version labels
+
+- Treat the current product release and the clean-installer version as two
+  separate values.
+- Every release updates the current-version wording on the website and in the
+  repository README.
+- Never relabel an older clean-installer ZIP as a newer version. Until a new
+  full installer is built and verified, explain that the launcher brings the
+  clean installer up to the current release.
 
 ## Player data
 
