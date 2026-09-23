@@ -47,6 +47,13 @@ Use **CHECK FOR UPDATES** in the launcher. Update packages are verified by file
 size and SHA-256 before installation, while player configuration, cockpit
 assignments, mission progress and logs are preserved.
 
+Every published update is cumulative from the current clean-installer
+baseline. A player on any supported older version can install the newest update
+directly; intermediate updates are never required.
+
+Launcher-facing update messages remain spoiler-free. Detailed package notes are
+included only when their contents have been explicitly approved for release.
+
 ## Support
 
 - Website: https://www.florianrooz.nl
