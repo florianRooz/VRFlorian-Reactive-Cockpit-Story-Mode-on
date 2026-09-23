@@ -3,7 +3,7 @@
   "product": "VRFlorian Reactive Cockpit",
   "channel": "open-test",
   "version": "2.2.4",
-  "notes": "Living World and dialogue playback update: adds Mount Hagrass, the Hagrass stela and Mount Darwin using existing Story Assets media. Mission II spoken cues now share the dialogue layer so advancing quickly replaces the previous line. This cumulative package also includes the V2.2.2 live-telemetry gate and V2.2.3 launcher and mission refinements. Mission progress, Living World state, media, cockpit assignments, configuration and user data are preserved.",
+  "notes": "There is a new update ready for you, making Reactive Cockpit and Story Mode even better. Update now?",
   "package_url": "https://raw.githubusercontent.com/florianRooz/VRFlorian-Reactive-Cockpit-Story-Mode-on/main/updates/VRFlorian_Reactive_Cockpit_V2.2.4_UPDATE.zip",
   "sha256": "8FB999B06C9455E005ED254D8729E6F81BDF5B89EE8E3155581C67622647F1ED",
   "size_bytes": 59759
