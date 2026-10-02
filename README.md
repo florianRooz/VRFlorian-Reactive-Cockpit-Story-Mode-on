@@ -1,7 +1,7 @@
 # VRFlorian Reactive Cockpit
 
 Current clean installer: **Version 2.2.1**  
-Latest launcher update: **Version 2.2.4**
+Latest launcher update: **Version 2.2.5**
 
 VRFlorian Reactive Cockpit adds responsive cockpit themes and optional
 single-player Story Mode content to Elite Dangerous. Story Mode ON includes a
@@ -13,7 +13,7 @@ location-aware sound and visual effects, and saved checkpoint progress.
 [Download the VRFlorian Reactive Cockpit V2.2.1 clean installer](https://github.com/florianRooz/VRFlorian-Reactive-Cockpit-Story-Mode-on/releases/download/v2.2.1/VRFlorian_Reactive_Cockpit_V2.2.1.zip)
 
 After installation, use **CHECK FOR UPDATES** in the launcher to install the
-latest small update. This is an open-test build; please report problems through
+latest cumulative update. This is an open-test build; please report problems through
 the support Discord.
 
 ## First installation
