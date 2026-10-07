@@ -2,9 +2,9 @@
   "schema": "reactive-cockpit.update-manifest.v1",
   "product": "VRFlorian Reactive Cockpit",
   "channel": "open-test",
-  "version": "2.2.7",
+  "version": "2.2.8",
   "notes": "There is a new update ready for you, making Reactive Cockpit and Story Mode even better. Update now?",
-  "package_url": "https://github.com/florianRooz/VRFlorian-Reactive-Cockpit-Story-Mode-on/releases/download/v2.2.7/VRFlorian_Reactive_Cockpit_V2.2.7_UPDATE.zip",
-  "sha256": "069C88068C627F606E8517EAA7DE7404DEE6E18F65196094C7F9C95F178073FA",
-  "size_bytes": 127266890
+  "package_url": "https://github.com/florianRooz/VRFlorian-Reactive-Cockpit-Story-Mode-on/releases/download/v2.2.8/VRFlorian_Reactive_Cockpit_V2.2.8_UPDATE.zip",
+  "sha256": "A90B0F93183DC459F731CC1FD406B728EBF99290699564B36DD78C7A8228BD9E",
+  "size_bytes": 127267156
 }
