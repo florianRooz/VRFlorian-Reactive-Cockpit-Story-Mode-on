@@ -1,7 +1,7 @@
 # VRFlorian Reactive Cockpit
 
 Current clean installer: **Version 2.2.1**  
-Latest launcher update: **Version 2.2.9**
+Latest launcher update: **Version 2.2.10**
 
 VRFlorian Reactive Cockpit adds responsive cockpit themes and optional
 single-player Story Mode content to Elite Dangerous. Story Mode ON includes a
@@ -25,11 +25,10 @@ the support Discord.
 4. Install a cockpit on at least one ship, keep EDHM UI closed, and click
    **ACTIVATE**.
 
-On first Story Mode activation after updating, review and confirm the proposed
-control bindings. Close Elite while automatic control setup makes changes, then
-start Elite again and activate Reactive Cockpit. Suitable existing alternatives
-are reused; proposed replacements are displayed before confirmation, and original
-profiles are backed up.
+On first Story Mode activation after updating, confirm your detected keybinds.
+Existing suitable controls are reused. If additional assignments are needed,
+the launcher shows the changes and asks you to close Elite first. Original
+profiles are backed up before changes.
 
 ## Story Mode ON
 
