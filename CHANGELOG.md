@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.2.10 — Control confirmation correction
+
+- Corrects active-profile detection and reuses existing suitable keyboard controls.
+- Simplifies the keybind confirmation wording.
+- Includes the previously announced launcher reliability and Story Mode updates.
+- Cumulative update preserves player settings, assignments and mission progress.
+
 ## 2.2.9 — Control setup and reliability
 
 - Guided control review with automatic alternative-key setup where possible.
