@@ -1,5 +1,14 @@
 # Changelog
 
+## 2.2.9 — Control setup and reliability
+
+- Guided control review with automatic alternative-key setup where possible.
+- Reuses suitable existing alternatives, shows proposed replacements and backs up original profiles.
+- Improved Python detection and current-session selection.
+- Clearer mission guidance, updated Living World content and smoother audio transitions.
+- Added help for ships missing from the installation list.
+- Cumulative update preserves player settings, assignments and mission progress.
+
 ## 2.2.4 — Living World and dialogue playback
 
 - Added Living World environments for Mount Hagrass, the Hagrass stela and
