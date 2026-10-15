@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.2.11 — Optional control setup
+
+- Adds Skip and Update Key Binds, with confirmation specific to each installation.
+- Uses player-assigned secondary letters, numbers and numpad digits without conflict blocking.
+- Suggests free keys only for missing assignments and clarifies supported keys.
+- Includes previous launcher reliability, mission guidance and Living World updates.
+- Cumulative update preserves player settings, assignments and mission progress.
+
 ## 2.2.10 — Control confirmation correction
 
 - Corrects active-profile detection and reuses existing suitable keyboard controls.
